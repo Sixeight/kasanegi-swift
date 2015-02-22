@@ -11,7 +11,6 @@
 		B1A44E281A9A738B001BF520 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A44E271A9A738B001BF520 /* ViewController.swift */; };
 		B1A44E2B1A9A738B001BF520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A44E291A9A738B001BF520 /* Main.storyboard */; };
 		B1A44E2D1A9A738B001BF520 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A44E2C1A9A738B001BF520 /* Images.xcassets */; };
-		B1A44E301A9A738B001BF520 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1A44E2E1A9A738B001BF520 /* LaunchScreen.xib */; };
 		B1A44E3C1A9A738B001BF520 /* kasanegi_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A44E3B1A9A738B001BF520 /* kasanegi_swiftTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		B1A44E271A9A738B001BF520 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1A44E2A1A9A738B001BF520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1A44E2C1A9A738B001BF520 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B1A44E2F1A9A738B001BF520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B1A44E351A9A738B001BF520 /* kasanegi-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kasanegi-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A44E3A1A9A738B001BF520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1A44E3B1A9A738B001BF520 /* kasanegi_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kasanegi_swiftTests.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				B1A44E271A9A738B001BF520 /* ViewController.swift */,
 				B1A44E291A9A738B001BF520 /* Main.storyboard */,
 				B1A44E2C1A9A738B001BF520 /* Images.xcassets */,
-				B1A44E2E1A9A738B001BF520 /* LaunchScreen.xib */,
 				B1A44E231A9A738B001BF520 /* Supporting Files */,
 			);
 			path = "kasanegi-swift";
@@ -193,7 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1A44E2B1A9A738B001BF520 /* Main.storyboard in Resources */,
-				B1A44E301A9A738B001BF520 /* LaunchScreen.xib in Resources */,
 				B1A44E2D1A9A738B001BF520 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +238,6 @@
 				B1A44E2A1A9A738B001BF520 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B1A44E2E1A9A738B001BF520 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1A44E2F1A9A738B001BF520 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -407,6 +395,7 @@
 				B1A44E411A9A738B001BF520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1A44E421A9A738B001BF520 /* Build configuration list for PBXNativeTarget "kasanegi-swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +404,7 @@
 				B1A44E441A9A738B001BF520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
